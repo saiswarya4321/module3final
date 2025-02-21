@@ -1,0 +1,42 @@
+/* products */
+.product-img{
+    width: 100%;
+    object-fit: contain;
+    height: 300px;
+}
+Button{
+    display: inline-block;
+
+}
+.details-img{
+    width: 400px;
+    object-fit: contain;
+    height: 400px;
+    min-width: 250px;
+}
+
+.carousel img{
+    height: 700px;
+    object-fit: cover;
+
+}
+.footer{
+    padding: 20px;
+    background-color: rgb(15, 10, 10);
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.main{
+    flex: 1;
+    margin-top: 90px; /* Prevent header overlap */
+  padding-bottom: 70px; /* Prevent footer overlap */
+}
